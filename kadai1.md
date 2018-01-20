@@ -1,6 +1,6 @@
 # 課題１レポート
 
-フリー素材サイト(https://www.pakutaso.com)からダウンロードした猫の画像を原画像とする．この画像は縦533画像，横800画素による長方形のディジタルカラー画像である．
+フリー素材サイトからダウンロードした猫の画像を原画像とする．この画像は縦533画像，横800画素による長方形のディジタルカラー画像である．
 
 ORG=imread('neko.jpg'); % 原画像の入力  
 imagesc(ORG); axis image; % 画像の表示
@@ -20,25 +20,27 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai1.2.PNG" width="500"> 
 図2 1/2サンプリング
 
-同様に原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．すなわち，
+原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．すなわち，
 
-IMG = imresize(ORG,0.5); % 画像の縮小  
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大
+IMG = imresize(IMG,0.5); % 画像の縮小  
+IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 
 とする．1/4サンプリングの結果を図３に示す．
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai1.3.PNG" width="500">   
 図3 1/4サンプリング
 
-1/8から1/32サンプリングは，
+1/8サンプリングするには，
 
 IMG = imresize(ORG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
-を繰り返す．サンプリングの結果を図４～６に示す．
+とすればよい．1/8サンプリングの結果を図４に示す．
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai1.4.PNG" width="500">  
 図4 1/8サンプリング
+
+同様に1/16サンプリング，1/32サンプリングも行い，結果を図５，図６にそれぞれ示す．
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai1.5.PNG" width="500"> 
 図5 1/16サンプリング
