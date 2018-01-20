@@ -32,8 +32,8 @@ IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 
 1/8サンプリングするには，
 
-IMG = imresize(ORG,0.5); % 画像の縮小  
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大
+IMG = imresize(IMG,0.5); % 画像の縮小  
+IMG2 = imresize(IMG,8,'box'); % 画像の拡大
 
 とすればよい．1/8サンプリングの結果を図４に示す．
 
