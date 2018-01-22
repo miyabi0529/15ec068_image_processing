@@ -12,6 +12,7 @@ pause; % 一時停止
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai2.1.PNG" width="500">
 図１　課題２の原画像
 
+
 % ２階調画像の生成
 IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
@@ -21,6 +22,7 @@ pause;
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai2.2.PNG" width="500">
 図２　２階調画像
+
 
 % ４階調画像の生成
 IMG0 = ORG>64;
@@ -33,6 +35,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai2.3.PNG" width="500">
 図３　４階調画像
+
 
 IMG0 = ORG>32;
 IMG1 = ORG>64;
@@ -48,3 +51,5 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai2.4.PNG" width="500">
 図４　８階調画像
 
+
+このように２階調，４階調，８階調と変化させていくと
