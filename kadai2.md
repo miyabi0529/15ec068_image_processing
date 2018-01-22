@@ -2,9 +2,13 @@
 ２階調，４階調，８階調の画像を生成せよ．
 
 clear; % 変数のオールクリア
+
 ORG=imread('Lenna.png'); % 原画像の入力
+
 ORG = rgb2gray(ORG); colormap(gray); colorbar;
+
 imagesc(ORG); axis image; % 画像の表示
+
 pause; % 一時停止
 
 上記の操作によって表示される画像を図１に示す．
@@ -52,4 +56,4 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 図４　８階調画像
 
 
-このように２階調，４階調，８階調と変化させていくと
+このように２階調，４階調，８階調と変化させていくと画像に用いられる色の種類が増えていき，よりなめらかな画像になっていることが分かる．
