@@ -33,7 +33,6 @@ pause;
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai3.3.PNG" width="500">  
 
-
 図３　輝度値が96以上のとき  
 
 IMG = ORG > 128;  
@@ -52,4 +51,5 @@ imagesc(IMG); colormap(gray); colorbar;
 輝度値が192以上の画素を1，その他を0に変換したときの画像を図５に示す．
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai3.5.PNG" width="500">  
+
 図５　輝度値が192以上のとき  
