@@ -2,7 +2,7 @@
 ２階調，４階調，８階調の画像を生成せよ．
 
 clear;   
-ORG=imread('Lenna.png');   
+ORG=imread('neko.jpg');   
 ORG = rgb2gray(ORG); colormap(gray); colorbar;  
 imagesc(ORG); axis image;   
 pause;   
