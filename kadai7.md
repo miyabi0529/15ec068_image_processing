@@ -1,7 +1,7 @@
 #課題7　ダイナミックレンジの拡大  
 画素のダイナミックレンジを０から２５５にせよ． 
 
-ORG = imread('Lenna.jpg'); % 画像の読み込み  
+ORG = imread('neko.jpg'); % 画像の読み込み  
 ORG = rgb2gray(ORG); % 白黒濃淡画像に変換  
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示  
 pause;  
