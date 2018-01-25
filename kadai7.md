@@ -31,4 +31,10 @@ imhist(ORG); % 濃度ヒストグラムを生成、表示
 
 <img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai7.3.PNG" width="500">  
 
-図３　
+図３　ダイナミックレンジ拡大後の原画像
+
+<img src="https://github.com/miyabi0529/15ec068_image_processing/blob/master/kadai7.4.PNG" width="500">  
+
+図４　ダイナミックレンジ拡大後のヒストグラム  
+
+uint8とは，「1バイト符号なし整数形式に変換する」という意味である．よって，ORG = uint8(ORG);の文は「ORGを1バイト符号なし整数形式に変換する」という文であると考えられる．
