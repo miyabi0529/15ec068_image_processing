@@ -1,4 +1,4 @@
-#課題６　画像の二値化
+#課題６　画像の二値化  
 下記のプログラムを参考にして画像を二値化せよ．
 
 clear; % 変数のオールクリア  
@@ -23,8 +23,8 @@ pause;
 
 図２　閾値128による二値化
 
-IMG = dither(ORG); % ディザ法による二値化
-imagesc(IMG); colormap(gray); colorbar; % 画像の表示
+IMG = dither(ORG); % ディザ法による二値化  
+imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
 
 上記の操作によって表示される画像を図３に示す．
 
